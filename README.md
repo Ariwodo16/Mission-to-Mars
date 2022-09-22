@@ -1,28 +1,14 @@
-# Unit 12 Homework: Mission to Mars
+Mission to Mars
 
-In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following information outlines what you need to do.
-
-## Before You Begin
-
-1. Create a new repository for this project called `web-scraping-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local Git repository, create a directory for the web scraping challenge. Use a folder name that corresponds to the challenge: `Missions_to_Mars`.
-
-4. Add your notebook files to this folder as well as your Flask app.
-
-5. Push the above changes to GitHub.
+Build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following information outlines what you need to do.
 
 ## Instructions 
 
-The instructions for this assignment are divided into three parts: 
+The instructions are divided into two parts: 
 
 1. Scraping 
 
 2. MongoDB and Flask Application
-
-3. Submission 
 
 ## Part  1: Scraping
 
@@ -99,31 +85,6 @@ Use MongoDB with Flask templating to create a new HTML page that displays all th
 * Create a template HTML file called `index.html` that will take the Mars data dictionary and display all the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
 ![final_app_part1.png](Images/final_app.png)
-
-- - -
-
-## Part 3: Submission
-
-To submit your work to BootCampSpot, create a new GitHub repository and upload the following:
-
-1. The Jupyter notebook containing the scraping code used
-
-2. Screenshots of your final application
-
-Ensure your repository has regular commits and a detailed `README.md` file. Then, submit the link to your new repository. 
-
-
-## Hints
-
-* Use Splinter to navigate the sites when needed and BeautifulSoup to help find and parse out the necessary data.
-
-* Use PyMongo for CRUD applications for your database. For this homework, you can simply overwrite the existing document each time the `/scrape` url is visited and new data is obtained.
-
-* Use Bootstrap to structure your HTML template.
-
-## Rubric
-
-[Unit 12 Homework Rubric](https://docs.google.com/document/d/1paGEIFS5yp2VQu6G8F45B4uj1t1t29zL73KEQrD0xpo/edit?usp=sharing)
 
 - - -
 
